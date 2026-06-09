@@ -14,6 +14,7 @@
 	transform: translateY(-0.5rem); /* nudge upward */
 	line-height: 1;
 	word-break: break-word;
+	color: #5D2A42; /* deep berry */
 }
 
 html, body {
@@ -25,7 +26,7 @@ body {
 	display: flex;
 	align-items: stretch; /* allow .card to fill full height */
 	justify-content: center; /* center horizontally */
-	background: linear-gradient(180deg, #f8edf2 0%, #ffffff 100%);
+	background: linear-gradient(180deg, #FFD1DC 0%, #FFF5F7 100%); /* soft pastel pink to marshmallow white */
 	font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
 }
 
@@ -33,17 +34,18 @@ body {
 	width: 90vw;
 	max-width: 720px;
 	height: 100vh; /* extend top to bottom */
-	background: rgba(255,255,255,0.92);
+	background: #FFF5F7; /* marshmallow white */
 	border-radius: 0; /* remove rounded corners */
 	padding: 2rem 2rem 2rem; /* slightly less top padding so heading is higher */
-	box-shadow: 0 10px 30px rgba(0,0,0,0.12);
-	border: 1px solid rgba(0,0,0,0.06);
+	box-shadow: 0 10px 30px rgba(93, 42, 66, 0.1); /* deep berry shadow */
+	border: 1px solid rgba(93, 42, 66, 0.08); /* deep berry border */
 	text-align: center;
 	margin: 0 auto;
 	box-sizing: border-box;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start; /* align content to top area */
+	color: #5D2A42; /* deep berry text */
 }
 
 /* Responsive adjustments */
@@ -59,6 +61,7 @@ body {
 	}
 	.card p {
 		font-size: 1rem;
+		color: #5D2A42; /* deep berry text */
 	}
 }
 
@@ -79,6 +82,7 @@ body {
 	.card p {
 		font-size: 0.95rem;
 		margin-top: 0.75rem;
+		color: #5D2A42; /* deep berry text */
 	}
 }
 
